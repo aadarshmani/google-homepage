@@ -1,53 +1,59 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-	<title>
+    <meta charset="utf-8">
+    <title>
         Google-Homepage
     </title>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!--  <link rel="stylesheet" type="text/css" href="reset.css">-->
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <ul>
-        <li class="right-head"><button type="button">Sign in</button></li>
-        <li class="right-head"><a href="#">apps</a></li>
-        <li class="right-head"><a href="#">Images</a></li>
-        <li class="right-head"><a href="#">Gmail</a></li>
-    </ul>
-</header>
-
-<main>
-<div class="content">
-<form action="#">
-<a href="#"><img class="logo" src="googlelogo.png" alt="google-logo"></a><br>
-<input type="text"><br>
-<button type="submit">Google Search</button>
-<button type="button">I'm Feeling Lucky</button>
-</form>
-<!-- <p>Google offered in: Hindi Marathi Gujrati Tamil Kannada</p>-->
-</div>
-</main>
-<footer>
-    <div class="footbottom">
-
-        <ul class="left-foot">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Advertising</a></li>
-            <li><a href="#">Business</a></li>
-            <li><a href="#">How Search works</a></li>
-        </ul>
-        
+    <header>
         <ul>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Settings</a></li>
+            <li class="right-head"><button type="button">Sign in</button></li>
+            <li class="right-head"><a href="#"><img src="apps_black_24dp.svg" alt="appsymbol"></a></li>
+            <li class="right-head"><a href="#">Images</a></li>
+            <li class="right-head"><a href="#">Gmail</a></li>
         </ul>
-    </div>
-</footer>
+    </header>
+
+    <main>
+        <div class="content">
+            <a href="#"><img class="logo" src="googlelogo.png" alt="google-logo"></a><br>
+        </div>
+        <div class="formy">
+            <form action="#">
+                <input size="50" maxlength="2048" name="q" type="text" autocapitalize="off" autocomplete="off"
+                    autocorrect="off" role="combobox" spellcheck="false" title="Search" value=""
+                    aria-label="Search"><br>
+                <div id="lucky">
+                    <button id="sub" type="submit">Google Search</button>
+                    <button id="sub" type="button">I'm Feeling Lucky</button>
+                </div>
+            </form>
+        </div>
+        <!-- <p>Google offered in: Hindi Marathi Gujrati Tamil Kannada</p>-->
+        </div>
+    </main>
+    <footer>
+        <div class="footbottom">
+            <ul>
+                <li class="right-foot"><a href="#">Privacy</a></li>
+                <li class="right-foot"><a href="#">Terms</a></li>
+                <li class="right-foot"><a href="#">Settings</a></li>
+                <li class="left-foot"><a href="#">About</a></li>
+                <li class="left-foot"><a href="#">Advertising</a></li>
+                <li class="left-foot"><a href="#">Business</a></li>
+                <li class="left-foot"><a href="#">How Search works</a></li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
+
 </html>
