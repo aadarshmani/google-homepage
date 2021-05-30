@@ -1,3 +1,23 @@
+.right-head {
+  display: flex;
+  float: right;
+  padding-left: 15px;
+  font-size:12px;
+}
+
+#appico{
+  padding-top: 2px;
+}
+#rh1{
+  padding-top: 10px;
+  color: rgba(0,0,0,0.87) !important;
+  text-decoration: none;
+}
+#rh2{
+  padding-top: 10px;
+  color: rgba(0,0,0,0.87) !important;
+  text-decoration: none;
+}
 .content {
   display: flex;
   align-items: flex-end;
@@ -8,7 +28,29 @@
   bottom: 0;
 }
 
+#signin{
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 2px;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+}
 .formy {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+#lucky {
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -23,16 +65,37 @@
   margin-right: 30px;
 }
 
-#lucky {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding-top: 10px;
-  margin-top: 10px;
+.footbottom {
+  padding: 0px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  border-top-color: rgb(228, 228, 228);
+  border-top-style: solid;
+  border-top-width: 1px;
+  line-height: 40px;
 }
 
+.right-foot {
+  display: flex;
+  float: right;
+  text-decoration: none;
+  clear: left;
+  padding:0px 27px 0px 0px;
+  margin: 0 !important;
+  font-size: 14px
+}
+
+.left-foot {
+  display: flex;
+  float: left;
+  padding: 0px 0px 0px 27px;
+  margin: 0 !important;
+  font-size: 14px
+}
+
+
 header {
-  padding: 4px;
+  padding: 15px 30px;
 }
 ul {
   list-style-type: none;
@@ -41,23 +104,11 @@ ul {
   overflow: hidden;
 }
 
-.right-head {
-  display: flex;
-  float: right;
-}
-.right-foot {
-  display: flex;
-  float: right;
-  clear: left;
-}
-.left-foot {
-  display: flex;
-  float: left;
-}
 li a {
-  display: block;
-  padding-left: 6px;
-  padding-right: 6px;
+  display: inline-block;
+  text-decoration: none;
+  color: #5f6368 !important;
+  font-family: arial,sans-serif;
 }
 
 footer {
@@ -68,13 +119,4 @@ footer {
   background: #f2f2f2;
   color: rgba(0, 0, 0, 0.54);
   text-align: center;
-}
-.footbottom {
-  padding: 0px;
-  font-size: 15px;
-  color: rgba(0, 0, 0, 0.54);
-  border-top-color: rgb(228, 228, 228);
-  border-top-style: solid;
-  border-top-width: 1px;
-  line-height: 40px;
 }
