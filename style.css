@@ -18,6 +18,46 @@
   color: rgba(0,0,0,0.87) !important;
   text-decoration: none;
 }
+.material-icons-outlined{
+  display: flex;
+    align-items: center;
+    margin-top: -5px;
+}
+.searchico{
+  padding-left: 13px;
+}
+.micico{
+  padding-right: 13px;
+}
+#searchbox{
+  background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #202124;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+}
+#searchboxdiv{
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 582px;
+  font-size: small;
+  color: #222;
+  font-family: arial,sans-serif;
+}
 .content {
   display: flex;
   align-items: flex-end;

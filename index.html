@@ -7,6 +7,7 @@
         Google-Homepage by Aadarsh Mani
     </title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -28,9 +29,14 @@
         </div>
         <div class="formy">
             <form action="#">
-                <input size="50" maxlength="2048" name="q" type="text" autocapitalize="off" autocomplete="off"
+                <div id="searchboxdiv">
+                <span class="material-icons-outlined searchico">search</span>
+                <input id="searchbox" size="50" maxlength="2048" name="q" type="text" autocapitalize="off" autocomplete="off"
                     autocorrect="off" role="combobox" spellcheck="false" title="Search" value=""
-                    aria-label="Search"><br>
+                    aria-label="Search">
+                    <span class="material-icons-outlined micico">mic</span>
+                </div>
+
                 <div id="lucky">
                     <button id="sub" type="submit">Google Search</button>
                     <button id="sub" type="button">I'm Feeling Lucky</button>
